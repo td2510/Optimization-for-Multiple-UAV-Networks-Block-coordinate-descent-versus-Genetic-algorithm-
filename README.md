@@ -5,8 +5,11 @@ Trajectories of UAVs
    
 ## Results achieved
 • Com: Use BCD to solve the problem
+
 • 3D+OP: Similar to Com but only for 1 UAV
+
 • 2D+2UAV: Similar to Com but does not optimize transmission power and fixes the UAV's flight trajectory altitude at height H
+
 1. Total throughput vs. data required
    
    ![image](https://github.com/user-attachments/assets/7325b39f-09e6-4153-8ee6-b8780aefa569)
