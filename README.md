@@ -1,0 +1,1 @@
+# Optimization-for-Multiple-UAV-Networks-Block-coordinate-descent-versus-Genetic-algorithm-
