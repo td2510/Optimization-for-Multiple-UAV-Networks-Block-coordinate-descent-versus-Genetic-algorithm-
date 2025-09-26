@@ -15,9 +15,9 @@ plot(x, y3,'gd-','MarkerSize',8,'LineWidth',1.5);
 % hold on
 % plot(x, y4,'gd-','MarkerSize',8,'LineWidth',1.5);
 
-xlabel('T (seconds)');
-% ylabel('Total Throughput (Mbits)');
-ylabel('Tổng thông lượng (Mbits)');
+xlabel({'T (seconds)', '(c)'});
+ylabel('Total Throughput (Mbits)');
+% ylabel('Tổng thông lượng (Mbits)');
 legend('Com','3D+OP','2D+2UAV');
 % legend('Com','3D+OP','2D+2UAV','3D+2UAV');
 grid on

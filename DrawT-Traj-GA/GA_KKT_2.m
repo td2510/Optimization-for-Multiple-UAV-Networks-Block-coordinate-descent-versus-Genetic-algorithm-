@@ -10,9 +10,9 @@ plot(x, y1,'bo-','MarkerSize',8,'LineWidth',1.5);
 hold on
 plot(x, y2,'ms-','MarkerSize',8,'LineWidth',1.5);
 
-xlabel('T (seconds)');
-% ylabel('Running time (seconds)');
-ylabel('Thời gian thực hiện (seconds)');
+xlabel({'T (seconds)', '(b)'});
+ylabel('Running time (seconds)');
+% ylabel('Thời gian thực hiện (seconds)');
 legend('BCD','GA');
 grid on
 box on

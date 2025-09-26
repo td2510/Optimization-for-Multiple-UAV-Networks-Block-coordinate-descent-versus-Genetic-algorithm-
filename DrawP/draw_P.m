@@ -26,9 +26,10 @@ plot(x, y2,'ms-','MarkerSize',8,'LineWidth',1.5);
 hold on
 plot(x, y3,'gd-','MarkerSize',8,'LineWidth',1.5);
 
-xlabel('P_{WPT} (dB)');
-% ylabel('Total Throughput (Mbits)');
-ylabel('Tổng thông lượng (Mbits)');
+% xlabel('P_{WPT} (dB)');
+xlabel({'P_{WPT} (dB)', '(b)'});
+ylabel('Total Throughput (Mbits)');
+% ylabel('Tổng thông lượng (Mbits)');
 legend('Com','3D+OP','2D+2UAV')
 grid on
 box on

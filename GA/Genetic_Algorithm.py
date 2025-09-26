@@ -9,7 +9,7 @@ import pdb
 
 # H = 10
 V = 20
-T = 20
+T = 30
 t = 0.5
 d = V*t
 X = 20
@@ -47,11 +47,12 @@ xichma = 0.45
 n_u = 0.5
 P_u = 5  # 7.5 mW
 P_b = 10**(-3)
-P_s = 55  # 16dBm
+# P_s = 55  # 16dBm
+P_s = 10  
 xich_ma_u = 10**(-6)
 nguy = 0.5
 P_wpt = 1*10**7
-S = 70
+S = 20
 micro = 0.84
 
 v_0 = sqrt(W / (2 * p * A))
